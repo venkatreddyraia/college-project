@@ -1,0 +1,180 @@
+{%load static%}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'CSS/major.css'%}">
+        <title>registration</title>
+    </head>
+    <body>
+       <form action="studentview" method="POST" enctype="multipart/form-data">
+           {% csrf_token%}
+        <div class="d">
+            <div class="pie1">
+                <img src="{% static 'images/photo.jpg'%}" class="pie1" > </img>
+            </div>
+            <div class="h1">
+                <h1>AURORA'S POST GRADUATION COLLEGE</h1>  
+
+        </div>
+        <div>
+           
+            
+        </div>
+       
+        </div>
+        <div class="d5">
+            <div>
+                <a href="..">Home</a>
+                <a href="about">About</a>
+                <a href="course">Course</a>
+                <a href="images">Gallary</a>
+                <a href="faculty">Faculty</a>
+                <a href="icet">I-cet registration</a>
+                <a href="stulogin">Log in</a>
+                <a href="contact">Contact</a>
+                <a href="../college/">college</a>
+                <a href="../venkat/">admin</a>
+                
+            </div>
+        </div>
+             <div class="rg2">  
+                 <h1 class="rg1">icet registration</h1>  
+                 <div class="rg3"> 
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">Admisstion number:</label>
+                        <input type="number"class="rg5" style="margin-right: 25px;">
+                    </div>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">state:</label>
+                        <input type="text" placeholder="start" class="rg5" style="margin-left: 105px;" name="state" required>
+                    </div>
+                    
+                     <div class="rg4">
+                         <label style="padding:100px;font-size: 25px;">First Name:</label>
+                         <input type="text" placeholder="First Name" class="rg5" name="fname" required>
+                     </div>
+                     <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">Second Name:</label>
+                        <input type="text" placeholder="Second Name" class="rg5" name="sname" required>
+                    </div>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">Contact:</label>
+                        
+                         +91<input type="number" placeholder="Contact" class="rg5" name="cno" required>
+                    </div>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">DOB:</label>
+                        <input type="date" placeholder="DOB" class="rg5" style="margin-left: 95px;" name="bbb" required>
+                    </div>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">Email:</label>
+                        <input type="email" placeholder="email" class="rg5" style="margin-left: 55px;" name="email" required>
+                    </div>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">Password:</label>
+                        <input type="password" placeholder="Password" class="rg5" style="margin-left: 55px;" name="password" required>
+                    </div>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">Gendar:</label>
+                        <select style="margin-left: 55px;" name="gender" required>
+                            <option>Male</option>
+                            <option>FeMale</option>
+                            <option>other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">Black:</label>
+                        <select style="margin-left: 100px;" name="black" required>
+                            <option>MBA</option>
+                            <option>MCA</option>
+                        </select></div>
+                        <div class="rg4">
+                            <label style="padding:100px;font-size: 25px;">Address:</label>
+                            <textarea name="add" required></textarea>
+                        </div>
+                        <div class="rg4">
+                            <label style="padding:100px;font-size: 25px;">COURSE:</label>
+                            <select style="margin-left: 55px;" name="course" required>
+                                <option>MBA</option>
+                                <option>MCA</option>
+                            </select></div>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">icet Alloment form:</label>
+                        <input type="file" class="rg5" name="icetpie" required>
+                    </div>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">photo:</label>
+                        <input type="file" class="rg5" name="image" required>
+                    </div>
+                    <h1 style="padding:10px;text-align: center;">degrees detales</h1> <hr>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">college name:</label>
+                        <input type="text" placeholder="name" class="rg5" style="margin-left: 5px;" name="dname" required>
+                    </div>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">university name:</label>
+                        <input type="text" placeholder="university" class="rg5" style="margin-left: 5px;" name="du">
+                    </div>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">Year of Pass:</label>
+                        <input type="number" placeholder="Year of Pass" class="rg5" style="margin-left: 5px;" name="dyop" required>
+                    </div>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">Total Marks:</label>
+                        <input type="number" placeholder="Marks" class="rg5" style="margin-left: 45px;" name="dtm" required>
+                    </div>
+                    <h1 style="padding:10px;text-align: center;">inter detales</h1> <hr>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">college name:</label>
+                        <input type="text" placeholder="name" class="rg5" style="margin-left: 5px;" name="iname" required>
+                    </div>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">bored name:</label>
+                        <input type="text" placeholder="university" class="rg5" style="margin-left: 45px;" name="iu" required>
+                    </div>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">Year of Pass:</label>
+                        <input type="number" placeholder="Year of Pass" class="rg5" style="margin-left: 5px;" name="iyop" required>
+                    </div>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">Total Marks:</label>
+                        <input type="number" placeholder="Marks" class="rg5" style="margin-left: 45px;" name="itm" required>
+                    </div>
+                    <h1 style="padding:10px;text-align: center;">SSC detales</h1><hr>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">school name:</label>
+                        <input type="text" placeholder="name" class="rg5" style="margin-left: 5px;" name="ssname" required>
+                    </div>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">bored name:</label>
+                        <input type="text" placeholder="university" class="rg5" style="margin-left: 55px;" name="su" required>
+                    </div>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">Year of Pass:</label>
+                        <input type="number" placeholder="Year of Pass" class="rg5" style="margin-left: 5px;" name="syop" required>
+                    </div>
+                    <div class="rg4">
+                        <label style="padding:100px;font-size: 25px;">Total Marks:</label>
+                        <input type="number" placeholder="Marks" class="rg5" style="margin-left: 45px;" name="stm">
+                        
+                    </div>
+                   
+                    <button type="submit" style="width: 10%;height: 30px;text-align: center;margin-left: 650px;" >Submit</button>
+                   
+                    
+                    
+
+                    
+                    
+
+                    
+                    
+
+                 </div>  
+             </div>
+   
+        
+
+        </form>
+    </body>
+</html>

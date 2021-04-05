@@ -1,0 +1,98 @@
+{% load static%}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'CSS/major.css'%}">
+        
+        <title>major</title>
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">s -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <form action="../college/cshow" method="POST">
+        {%csrf_token%} 
+       
+        <div class="d">
+            <div class="pie1">
+                <img src="{% static 'images/photo.jpg'%}" class="pie1" > </img>
+            </div>
+            <div class="h1">
+                <h1>AURORA'S POST GRADUATION COLLEGE</h1>  
+
+        </div>
+        <div>
+           
+            
+        </div>
+       
+        </div>
+        <div class="d5">
+            <div>
+                <a href="..">Home</a>
+                <a href="about">About</a>
+                <a href="course">Course</a>
+                <a href="images">Gallary</a>
+                <a href="faculty">Faculty</a>
+                <a href="icet">I-cet registration</a>
+                <a href="stulogin">Log in</a>
+                <a href="contact">Contact</a>
+                <a href="../college/">college</a>
+                <a href="../venkat/">admin</a>
+                
+            </div>
+        </div>
+        <h1>College registration</h1>
+        <div class="creg">
+            <div class="creg1">
+                <label>Name:</label>
+                <input type="text" placeholder="name" name="name" required>
+            </div>
+            <div class="creg1">
+                <label> Father Name:</label>
+                <input type="text" placeholder="father name" name="father" required> 
+            </div>
+            <div class="creg1">
+                <label>City:</label>
+                <input type="text" placeholder="city" name="city" required>
+            </div>
+            <div class="creg1">
+                <label>Contact:</label>
+                <input type="number" placeholder="contact" name="cno" required>
+            </div>
+            <div class="creg1">
+                <label>Date of bith:</label>
+                <input type="date" placeholder="dob" name="doo" required>
+            </div>
+            <div class="creg1">
+                <label>djj:</label>
+                <input type="number" placeholder="doj" name="djj" required>
+            </div>
+            
+            
+            <div class="creg1">
+                <label>Email:</label>
+                <input type="email" placeholder="email" name="email" required>
+            </div>
+            <div class="creg1">
+                <label>Password:</label>
+                <input type="password" placeholder="password" name="password" required>
+            </div>
+            <div class="creg1">
+                <label>Qualification:</label>
+                <input type="text" placeholder="qualification" name="qul" required>
+            </div>
+            <div class="creg1">
+                <label>Expresencs:</label>
+                <input type="number" placeholder="expresencs" name="exp" required>
+            </div>
+            <label>Select</label>
+            <select name="select" required>
+                <option>Mr</option>
+                <option>Ms</option>
+                <option>Other</option>
+
+            </select><br>
+            <button type="submit">Submit</button>
+        </div>
+        </form>
+        </body>
+        </html>

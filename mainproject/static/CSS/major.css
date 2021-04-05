@@ -1,0 +1,128 @@
+/* home */
+
+.d{width: 100%;height: 60px;}
+.d1{width:100%;height:50px;}
+.d2{width: 100%;height: 400px;}
+.d3{width: 100%;margin-top: 25px;}
+.pie1{width: 22%;height: 60px;float: left;margin-left: 15px;}
+.h1{width:45%;height: 60px;float: left;center;color:darkblue;}
+.d02{width: 22%;height: 60px;float: left;margin-left: 120px;}
+.w3-content w3-section{width: 100%;height: 400px;}
+a{width: 5%;height: 20px;float: left;background-color:black; text-decoration:none;color:  white;font-size: 20;margin-right: 02px;text-align: center;margin-top: 25px;}
+a:hover{color: gold;}
+img{width: 100%;height:300px; float: left;margin-top: 05px;}
+.h2{width: 100%;height: 30px;text-align: center;}
+.d6{width: 46%;height: 320px;float: left;padding: 30px;}
+.d7{width: 40%;height: 300px;float: left;}
+.d6:hover{
+    background-color: violet; color: white; border-radius: 15px;
+}
+.d8{width: 40%;height: 50%;float:left;padding: 20px;}
+.b1{width: 40%;height: 50px;border-radius: 20px ;background-color: blue;color: white;margin-left: 30px;}
+.b1:hover{color: red;}
+.b2{width: 40%;height: 50px;border-radius: 20px ;background-color: blue;color: white;margin-left: 30px;margin-top: 40px;}
+.b2:hover{color: red;}
+hr{ width: 120px; height: 2px;  background-color: red;}
+.d9{width:100%;height: 25%;background-color:#2ecc71;float: left; text-align: center;padding-top: 25px;color: white;margin: 0;font-family:Arial, Helvetica, sans-serif;}
+.d10{width: 100%;height: 25%;background-color:red;float: left;text-align: center;color: white;padding-top: 55px;margin: 0;font-family:Arial, Helvetica, sans-serif;}
+.image{width: 100%;height: 300px;float: left;}
+.d01{text-align: center;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.d-flex flex-row{width:40%;height: 100px;float: left;margin-left: 500px;} 
+.d12{width: 100%;height: 570px;float: left;background-color:black }
+.d13{width: 28%;height: 10px;float: left;color: turquoise;margin-top: 85px;margin-left: 85px;}
+.d14{width: 20%;height: 200px;float: left;padding: 15px;}
+.clearfix{clear: both;}
+.image1{width: 100%;height: 200px;float: left;}
+.mySlides w3-animate-bottom{width: 1005;height: 200px;float: left;}
+.fc{width: 30%;height: 200px;float: left;margin-left: 150px;margin-top: 10px;}
+    
+                                /* login */
+
+.s{float: left;text-align: center;width: 100%;height: 550px;background-image: url(color.jpg);background-size: cover;margin-top: 15px;}
+ .d b{text-align: center;font-size:x-large;color: blue;}
+.s1{float: left;width: 30%;height: 400px;text-align: center;border: 2px rgb(18, 15, 206) solid;border-radius: 20px;transform: translate(-50,-50);position: absolute;top: 10%;left: 35%;background-color: rgba(247, 0, 255, 0.267);margin-top: 150px;}
+.s2{float: left;text-align: center;width: 100%;margin-top: 25px;margin-left: 90px;}
+.s3{float: left; width: 50%;height: 33px;border: 2px paleturquoise solid;text-align: center;border-radius: 20px;}
+ .icon1{float: left;width: 20px;height: 15px;margin-top: 8px;margin-left: 10px;}
+.icon2{float: left;width: 20px;height: 15px;margin-top: 8px;margin-left: 12px;}
+ .s3 input{float: left;width: 75%;height: 28px;margin-top: 4px;padding-left: 20px;padding-top: 4px;border: none;font-size: large;outline: none;cursor: pointer;background: none;}
+.s button{float: left;width: 30%;height: 35px;margin-left: 35px; background: none;outline: none;border: 2px lime solid;border-radius: 25px;cursor: pointer;font-size: larger;font-weight: bolder;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.cust7{float: left;width: 100%;height: 20px; text-align: center;margin-top: 5px;}
+.cust7 a{ text-align: center;color: rgb(4, 255, 37);text-decoration: none;font-style: oblique;}
+     
+                              /* about */
+
+ .ad1{width: 100%;height: 100px;color: #2ecc71;text-align: center;font-family:Arial, Helvetica, sans-serif;}
+ .hr1{width: 50%;}
+ .adh1{width: 100%;height: 100px;margin-top: 35px;padding: 15px;font-size: 25px;font-family:Arial, Helvetica, sans-serif;}
+ .ad2{width: 48%;height: 200px;padding: 10px;float: left;}
+ .adh2{text-align: center;font-size: 15px;font-family:Arial, Helvetica, sans-serif;margin-top: 15px;}
+ .ad3{width: 100%;height: 300px;float: left;margin-top: 190px;}
+ .ad4{width: 48%;height: 200px;float: left;padding: 15px;}
+ 
+                                 /* course */
+
+                                 .dropdown {
+                                    position: relative;display: inline-block;}
+                                  
+                                  .dropdown-content {display: none; position: absolute;color: blueviolet;
+                                    min-width: 1000px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  padding: 12px 16px;z-index: 1;  }
+                                  
+                                  .dropdown:hover .dropdown-content {
+                                    display: block;
+                                  }   
+
+                                  /* images */
+   .g1{width: 100%;height: 1800px;float: left;background-color: lightseagreen;}
+.g2{width: 100%;height: 200px;float: left;}
+.g3{width: 23%;height: 100px;float: left;margin-right: 10px;margin-top: 10px;padding: 10px;border-radius: 50%;}
+.g4{text-align: center;font-size: 25px;}
+.g5{width: 100%;height: 200px;float: left;}
+.g6{width: 23%;height: 100px;float: left;margin-top: 170px;margin-right: 10px;padding: 10px;}
+.g7{width: 23%;height: 100px;margin-top: 330px;margin-right: 10px;padding: 10px;float: left;}
+.g8{width: 100%;height: 200px;float: left;}
+.g9{width: 100%;height: 200px;float: left;}
+.g10{width: 22%;height: 100px;float: left;margin-top: 500px;margin-right: 10px;padding: 10px;}
+.g11{width: 100%;height: 200px;float: left;}
+.g12{width: 22%;height: 100px;float: left;margin-top:650px;margin-right: 10px;padding: 10px;}
+
+.creg{width: 100%;height: 30px; float: left;}
+.creg1{width: 30%;height: 20px;float: left;}
+
+                   /* icet */
+.icet1{width: 100%;height: 300px;}
+.icet2{width: 100%;height: 520px;background-color: #2ecc71;margin-top: 100px;}
+.icetl1{width: 100%;height: 100px;text-align: center;padding-left: 150px;font-size: 35px;color:black;margin-top: 15px;}
+.iceti{width: 20%;height: 30px;}
+.icetb{width: 05%;height: 30px;text-align: center;margin-left: 680px;margin-top: 20px;}
+
+                /* registration */
+.rg1{width: 100%;height:100px;text-align:center;color: blue;    }
+.rg2{width: 100%;height: 1800px;background-color: khaki;margin-top: 80px;background-image: url('color.jpg');}
+.rg3{width: 100%;height: 200px;float: left;}
+.rg4{width: 48%;height: 100px;float: left;}
+.rg5{width: 35%;background-color: lavender;margin-left: 10px;height: 30px;text-align: center;}
+             
+                       /* faculty */
+
+.f1{width: 48%;height: 300px;float: left;margin-top: 60px;}
+.fh1{color: blueviolet;}
+.fh2{color: lawngreen; }
+.fh1:hover{color: red;}
+.f2{width: 48%;height: 130px;font-size: 10px; border: 2px solid blue;padding: 15px;margin-top: 10px;margin-left: 500px;font-family:Arial, Helvetica, sans-seri;}
+.f3{width: 48%;height: 300px;float: left; padding: 15px;}
+.f4{width: 48%;height: 120px;font-size: 10px; border: 2px solid blue;padding: 15px;margin-top: 10px;margin-left: 550px;font-family:Arial, Helvetica, sans-serif;}
+.fh3{text-align: center;margin-right: 750px;}
+.fh4{text-align: center;}
+.mc1{width: 900px;padding: 7% 50px;margin: 0 auto;}
+.mcc2{background: linear-gradient(to right,blue,pink,greenyellow);border-radius: 0 30px 0 30px;width: 25%;height: 60px;margin-right: 205px;margin-left: 160px;margin-top: 105px  ;}
+
+
+.h3{float: left;width: 14%;position: relative;background-color:green;padding-top: 6px;height: 25px;margin-left: 3px;text-align: center;}
+.h4{font-family: sans-serif;border: none;font-weight: bold;color: antiquewhite;text-decoration: none;}
+.h5{list-style: none;width: 100%;display: none;position: absolute;margin-top: 8px;}
+.h6{float: left; width: 99%;height: 28px;text-decoration: none;border: 1px solid black;background-color: lime;border-radius: 2px;font-family: sans-serif;font-weight: bold;padding-top: 5px;}
+.h2:hover{color: black;background-color: blue;}
+.h3:hover{color: black; background-color: blue;}
+.h3:hover .h5{display: block;}
+.h4:hover{color: black;background-color: blue;}

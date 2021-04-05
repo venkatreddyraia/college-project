@@ -1,0 +1,107 @@
+{% load static%}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'CSS/major.css'%}">
+        
+        <title>major</title>
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">s -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+        .h3{float: left;width: 05%;position: relative;background-color:green;padding-top: 6px;height: 10px;margin-left: 3px;text-align: center;}
+        .h4{font-family: sans-serif;border: none;font-weight: bold;color: antiquewhite;text-decoration: none;}
+        .h        5{list-style: none;width: 100%;display: none;position: absolute;margin-top: 8px;}
+        .h6{float: left; width: 99%;height: 28px;text-decoration: none;border: 1px solid black;background-color: lime;border-radius: 2px;font-family: sans-serif;font-weight: bold;padding-top: 5px;}
+        .h2:hover{color: black;background-color: blue;}
+        .h3:hover{color: black; background-color: blue;}
+        .h3:hover .h5{display: block;}
+        .h4:hover{color: black;background-color: blue;}
+    </style>
+    <body>
+       
+        <div class="d">
+            <div class="pie1">
+                <img src="{% static 'images/photo.jpg'%}" class="pie1" > </img>
+            </div>
+            <div class="h1">
+                <h1>AURORA'S POST GRADUATION COLLEGE</h1>  
+
+        </div>
+        <div>
+           
+            
+        </div>
+       
+        </div>
+        <div class="d5">
+            <div>
+                <a href="">Home</a>
+                <a href="about">About</a>
+                <a href="course">Course</a>
+                <a href="images">Gallary</a>
+                <a href="faculty.html">Faculty</a>
+                <a href="icet.html">I-cet registration</a>
+                <a href="login.html">Log in</a>
+                <a href="contact.html">Contact</a>
+                <a href="#">college</a>
+                <a href="../venkat/">Admin</a>
+                
+            </div>
+        </div>
+        <h1 style="text-align: center;">Welcome Aurora Admin</h1>
+    <a href="../venkat/flist" style="margin-left: 550px ">faculty list</a>
+    <a href="../venkat/slist">student  list</a>
+    <div class="h3">
+        <a class="h4">Farmer's Corner</a>
+        <div class="h5">
+            <a class="h6" href="Registration.html">New User</a>
+            <a class="h6" href="sign in.html">Sign In</a>
+        </div>
+    </div>
+    <table align="center" border="2" style="background-color: cadetblue;" height="500" width="900">
+        <tr style="background-color: yellow;">
+            <th><h1 style="text-align: center;">FACULTY  INFORMATION</h1></th>
+        </tr>
+        <tr bgcolor="#adff2f">
+            
+            <th width="10">NAME</th>
+            <th width="50">SNAME</th>
+            <th width="50">CNO</th>
+            <th width="50">CITY</th>
+            <th width="50">EXP</th>
+            <th width="50">QULIFIACTION</th>
+            <th width="50">GENDER</th>
+            <th width="50">DOB</th>
+            <th width="50">DOJ</th>
+            <th width="50">UPDATE</th>
+            <th width="50">DELETE</th>
+
+            
+        </tr>
+
+        {% for x in data %}
+            <tr>
+            
+            <th width="10">{{ x.name }}</th>
+            <th width="50">{{ x.father }}</th>
+            <th width="50">{{ x.cno }}</th>
+            <th width="50">{{ x.city }}</th>
+            <th width="50">{{ x.exp }}</th>
+            <th width="50">{{ x.qul }}</th>
+            <th width="50">{{ x.select }}</th>
+            <th width="50">{{ x.doo }}</th>
+            <th width="50">{{ x.djj }}</th>
+           
+        
+        
+        
+        
+        
+        </tr>
+
+       
+    {% endfor %}
+        
+
+    </body>
+    </html>

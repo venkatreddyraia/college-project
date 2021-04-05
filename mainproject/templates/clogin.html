@@ -1,0 +1,74 @@
+{% load static%}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'CSS/major.css'%}">
+        
+        <title>major</title>
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">s -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <form action="../college/copen" method="POST">
+        {%csrf_token%} 
+       
+        <div class="d">
+            <div class="pie1">
+                <img src="{% static 'images/photo.jpg'%}" class="pie1" > </img>
+            </div>
+            <div class="h1">
+                <h1>AURORA'S POST GRADUATION COLLEGE</h1>  
+
+        </div>
+        <div>
+           
+            
+        </div>
+       
+        </div>
+        <div class="d5">
+            <div>
+                <a href="..">Home</a>
+                <a href="about">About</a>
+                <a href="course">Course</a>
+                <a href="images">Gallary</a>
+                <a href="faculty">Faculty</a>
+                <a href="icet">I-cet registration</a>
+                <a href="stulogin">Log in</a>
+                <a href="contact">Contact</a>
+                <a href="../college/">college</a>
+                <a href="../venkat/">admin</a>
+                
+            </div>
+        </div>
+        <h1 style="text-align: center;">Welcome to AURORA</h1>
+        
+        <div class="s">
+            <div class="s1">
+                <h1 style="font-size: 35px; color: rgb(130, 238, 157);"> Colleg Login</h1> <hr>
+                <div class="s2">
+                    <div class="s3">
+                        <img class="icon1" src="{% static 'images/people.png'%}">
+                        <input type="text" placeholder="username" required name="username">
+                    </div>
+                </div>
+                <div class="s2">
+                    <div class="s3">
+                        <img class="icon2" src="{% static 'images/lock.png'%}">
+                        <input type="password" placeholder="password" required name="password">
+                    </div>
+                </div>
+                <div class="d2">
+                    <button type="submit">Login</button>
+                    <p>you want registration plese</p><a href="../college/csingup" style="margin-left: 160px;">signin</a>
+                </div>
+
+            
+        </div>
+        </div>
+    </form>
+    <tr>
+        <th>{{data}}</th>
+    </tr>
+        </body>
+        </html>
+   

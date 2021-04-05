@@ -1,0 +1,52 @@
+{% load static%}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'CSS/major.css'%}">
+        <title>registration</title>
+    </head>
+    <body>
+        <form action="studentreg" method="POST">
+            {% csrf_token%}
+        
+        <div class="d">
+            <div class="pie1">
+                <img src="{% static 'images/photo.jpg'%}" class="pie1" > </img>
+            </div>
+            <div class="h1">
+                <h1>AURORA'S POST GRADUATION COLLEGE</h1>  
+
+        </div>
+        <div>
+           
+            
+        </div>
+       
+        </div>
+        <div class="d5">
+            <div>
+                <a href="..">Home</a>
+                <a href="about">About</a>
+                <a href="course">Course</a>
+                <a href="images">Gallary</a>
+                <a href="faculty">Faculty</a>
+                <a href="icet">I-cet registration</a>
+                <a href="stulogin">Log in</a>
+                <a href="contact">Contact</a>
+                <a href="../college/">college</a>
+                <a href="../venkat/">admin</a>
+                
+            </div>
+        </div>
+    </body>
+    <div class="icet1">
+        <div class="icet2">
+           
+            <label class="icetl1">Enter your Allotment number:</label>
+            <input type="number" placeholder="Allotment number" name="icet" class="iceti"><br>
+            <button type="submit">ok</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>
+{{error}}

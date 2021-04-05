@@ -1,0 +1,117 @@
+{% load static%}
+<html>
+   
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{% static 'CSS/major.css'%}">
+        
+        <title>major</title>
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">s -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+       
+        <div class="d">
+            <div class="pie1">
+                <img src="{% static 'images/photo.jpg'%}" class="pie1" > </img>
+            </div>
+            <div class="h1">
+                <h1>AURORA'S POST GRADUATION COLLEGE</h1>  
+
+        </div>
+        <div>
+           
+            
+        </div>
+       
+        </div>
+        <div class="d5">
+            <div>
+                <a href="..">Home</a>
+                <a href="about">About</a>
+                <a href="course">Course</a>
+                <a href="images">Gallary</a>
+                <a href="faculty">Faculty</a>
+                <a href="icet">I-cet registration</a>
+                <a href="stulogin">Log in</a>
+                <a href="contact">Contact</a>
+                <a href="../college/">college</a>
+                <a href="../venkat/">admin</a>
+                
+            </div>
+        </div>
+        <h1 style="text-align: center;">Welcome Aurora Admin</h1>
+    <a href="../venkat/flist" style="margin-left: 550px;">faculty list</a>
+    <a href="../venkat/slist">student  list</a>
+    <div class="h3">
+        <a href="collegeb" class="h4">College Block</a>
+        <div class="h5">
+            <a class="h6" href="Mca">Mca</a>
+            <a class="h6" href="mba">Mba</a>
+        </div>
+    </div>
+    <table align="center" border="2" style="background-color: cadetblue;" height="500" width="900">
+        <tr style="background-color: yellow;">
+            <th><h1 style="text-align: center;">STUDENT  INFORMATION</h1></th>
+        </tr>
+        <tr bgcolor="#adff2f">
+
+            <th width="10">IDNO</th>
+            <th width="10">FNAME</th>
+            <th width="50">SNAME</th>
+            <th width="50">CNO</th>
+            <th width="50">CITY</th>
+            <th width="50">BLACK</th>
+            <th width="50">COURSE</th>
+            <th width="50">GENDER</th>
+            <th width="50">DOB</th>
+            <th width="50">ADDRESS</th>
+            <th width="50">EMAIL</th>
+            <th width="50">UPDATE</th>
+            <th width="50">DELETE</th>
+
+            
+        </tr>
+
+        {% for x in data %}
+            <tr>
+            <th width="50">{{ x.id }}</th>
+            <th width="10">{{ x.fname }}</th>
+            <th width="50">{{ x.sname }}</th>
+            <th width="50">{{ x.cno }}</th>
+            <th width="50">{{ x.state }}</th>
+            <th width="50">{{ x.black }}</th>
+            <th width="50">{{ x.course }}</th>
+            <th width="50">{{ x.gender }}</th>
+            <th width="50">{{ x.bbb }}</th>
+            <th width="50">{{ x.add }}</th>
+            <th width="50">{{ x.email }}</th>
+            <th width="100">
+
+
+                <form action="supdate" method="post">
+                    {% csrf_token %}
+                <input type="hidden" name="update_id" value="{{ x.id }}">
+                <button type="submit">update</button>
+                </form>
+
+            </th>
+            <th width="100">
+
+
+                <form action="sdelete" method="post">
+                    {% csrf_token %}
+                <input type="hidden" name="del_id" value="{{ x.id }}">
+                <button type="submit">delete</button>
+                </form>
+
+            </th>
+    
+        
+        </tr>
+
+       
+    {% endfor %}
+    
+    </body>
+    </html>

@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <table align="center" border="2">
+        <tr>
+            <th style="text-align: center;">Mca student list</th>
+        </tr>
+        <tr>
+            <th>IDNO</th>
+            <th>NAME</th>
+            <th>COURSE</th>
+            <th>BLOCK</th>
+        </tr>
+        <tr>
+            {% for x in data %}
+            <tr>
+            <th width="50">{{ x.id }}</th>
+            <th width="10">{{ x.fname }}</th>
+            <th width="50">{{ x.course }}</th>
+            <th width="50">{{ x.black }}</th>
+            
+            {%endfor%}
+        </tr>
+        </table>
+    </body>
+</html>

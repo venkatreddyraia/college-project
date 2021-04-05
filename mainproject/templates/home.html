@@ -1,0 +1,203 @@
+{% load static%}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'CSS/major.css'%}">
+        
+        <title>major</title>
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">s -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+       
+        <div class="d">
+            <div class="pie1">
+                <img src="{% static 'images/photo.jpg'%}" class="pie1" > </img>
+            </div>
+            <div class="h1">
+                <h1>AURORA'S POST GRADUATION COLLEGE</h1>  
+
+        </div>
+        <div>
+           
+            
+        </div>
+       
+        </div>
+        <div class="d5">
+            <div>
+                <a href="">Home</a>
+                <a href="about">About</a>
+                <a href="course">Course</a>
+                <a href="images">Gallary</a>
+                <a href="faculty">Faculty</a>
+                <a href="icet">I-cet registration</a>
+                <a href="stulogin">Log in</a>
+                <a href="contact">Contact</a>
+                <a href="../college/">college</a>
+                <a href="../venkat/">admin</a>
+                
+                
+                
+            </div>
+        </div>
+        <div class="d2">         
+<div class="image" >
+    <img class="mySlides w3-animate-top" src="{% static 'images/nani.jpg'%}">
+    
+    <img class="mySlides w3-animate-bottom" src="{% static 'images/a1.jpg'%}" >
+    <img class="mySlides w3-animate-top" src="{% static 'images/a6.jpg'%}">
+    <img class="mySlides w3-animate-bottom" src="{% static 'images/a3.jpg'%}" >
+  
+  </div>
+  
+  <script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2500);    
+  }
+  </script>
+               
+
+        </div>
+        <div>
+           <hr> <h1 class="h2"> EVENTS</h1><hr>
+        </div>
+
+      <div class="d6">
+          <div class="d7">
+              <img src="{% static 'images/bathukamm.jpg'%}"> </img>
+              <h1 class="d01">Bathukmma</h1>
+          </div>
+              <div class="d8">
+              <p >Bathukamma is floral festival celebrated predominantly by the Telangana and some parts of Andhra Pradesh.</p>
+                  <p>Every year this festival is celebrated as per Shathavahana calendar for nine days starting</p>
+                  <p>  Bhadrapada Pournami till Durgashtami, usually in September–October of Gregorian calendar.</p>
+                  <button type="submit" class="b1">Red More</button>
+              </div>
+      </div>
+      <div class="d6">
+              <div class="d7">
+                  <img src="{% static 'images/traditional.jpg'%}"> </img>
+                  <h1 class="d01">Traditional day</h1>
+              </div>
+              <div class="d8">
+                  <p>Traditional Day or Fête du Vodoun is a public holiday in Benin that celebrates the nation's </p>
+                     <p>history surrounding the West African religion of Vodoun. The celebration is held annually on January</p>
+                      <p> 10 throughout the country
+                       but most notably in the city of Ouidah.</p>
+                       <button type="submit" class="b2">Red More</button>
+              </div>
+            
+      </div>
+      <div class="d6">
+          <div class="d7">
+             <img src="{% static 'images/anveshna.jpg'%}"></img>
+             <h1 class="d01">Anveshna</h1>
+          </div>
+          <div class="d8">
+              <p>Aurora's PG College Ramanthapur is proud 
+                  to announce a two day Management Meet “ANVESHANA-16” to be held in the second week </p>
+                 <p> of March. ... Last year, the event was attended by 1500 students and this year the festival is expected to be attended around 2000 students. ... </p>
+                  <p>Women for Women Conclave 2020 Conclave ...</p>
+                  <button type="submit" class="b1">Red More</button>
+            </div>
+        </div>
+        <div class="d6">
+            <div class="d7">
+                <img src="{% static 'images/aby.jpg'%}"> </img>
+                <h1 class="d01">Abhyasa</h1>
+            </div>
+            <div class="d8">
+                <p>“ABHYASA – 2K18” IT Meet was conducted on 20-04-2018. A total of 105 students from 12</p>
+                  <p>   colleges registered for participating in formal and informal events from 10:00 am onwards.</p>
+                    <p>The Chief Guest Prof. Prof Chief Guest Prof.</p>
+                    <button type="submit" class="b2">Red More</button>
+            </div>
+        </div>
+    <div class="d9">
+      <h1>WELCOME TO AURORA</h1>
+          <p>welcome to Aurora Studenets</p>
+      </div>
+      <div class="d10">
+           <h1>You want notification from college   </h1>
+           <button onclick="window.location.href='notifiaction.html';">click here</button>
+        
+           
+      </div>
+      
+      
+      
+      </div>
+      
+      <footer class="clearfix">
+         
+        <div class="d12">
+        <div class="d14">
+            <h3 class="fh2" style="margin-left: 55px;">HISTORY</h3>
+           <p class="fh1" style="margin-left: 55px;">APGC Ramanthapur, Hyderabad had an interesting journey.
+                 Since we started operations in 1995, 
+                there has been no looking back after the first batch joined and
+                 batch after batch reposed confidence in us</p>
+                 <h3 class="fh2" style="margin-left: 55px;">VISION & MISSION</h3>
+                 <p class="fh1" style="margin-left: 55px;">The Vision of Aurora is “Achieving high standards of excellence
+                      in management / computer education and research by synergizing professional inputs,
+                       cutting edge technologies,
+                      learning ambience and social relevance.”</p>
+                      <h3 class="fh2" style="margin-left: 55px;">OBJECTIVE</h3>
+                      <p class="fh1" style="margin-left: 55px;">The institution has well stocked library, state-of-the-art
+                         laboratories, excellent infrastructure and extremely good placement profile.
+                          Its faculty has research degrees like Ph.D. and M.Phil., industry exposure,
+                           </p>
+        </div>
+            
+        
+            <div class="fc">
+                <h2 style="width: 100%;color: turquoise;margin-top: 125px;margin-left: 125px; font-size: 35px;">Follow Us</h2>
+                <P class="fh2" style="margin-left: 105px;">Follow the bellow contact</P>
+               <i class="fa fa-facebook" style="color: blue;margin-left: 130px;"></i> 
+               <i class="fa fa-instagram" style="color: pink;"></i>
+               <i class="fa fa-twitter" style="color: blueviolet;"></i>
+               <i class="fa fa-whatsapp" style="color: greenyellow;"></i>
+               <i class="fa fa-youtube" style="color: red;"></i>
+               <h1 class="fh2" style="margin-left: 105px; margin-top: 55px;">ACADEMIC</h1>
+               <p class="fh1">We go beyond the regular academics with an emphasis on practice.
+                    There are programs that help students develop leadership skills.
+
+                COURSES OFFERED
+                ACADEMIC CALENDER
+                CURRICULM
+                RESULTS.    </p>
+            </div>
+            
+        
+        <div class="d13">
+            <h1 class="fh2">View colleges by ranking</h1>
+            <ol type="A">
+            <li>Top NLUs Colleges in Hyderabad</li></ol>
+            <h2>Address</h2>
+            <h4 >12-128,1-10</h4>
+            <h4>Ganesh nagar</h4>
+            <h4>Ramanthapur</h4>
+            <h4>Hyderabad</h4>
+            <h4>contact:041-123564</h4>
+            <h3>Aurora.pg college@gmail.com</h3>
+        </div>
+        </div>
+        
+     </footer>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+</body>
+</html>
